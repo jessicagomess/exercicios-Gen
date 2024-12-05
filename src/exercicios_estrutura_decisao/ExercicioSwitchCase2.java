@@ -1,8 +1,8 @@
-package exerciciosEstrutura_Decisao;
+package exercicios_estrutura_decisao;
 
 import java.util.Scanner;
 
-public class exercicioSwitchCase_2 {
+public class ExercicioSwitchCase2 {
 
 		public static void main(String[] args) {
 		String nome;

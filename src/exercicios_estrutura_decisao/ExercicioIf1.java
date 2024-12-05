@@ -1,8 +1,8 @@
-package exerciciosEstrutura_Decisao;
+package exercicios_estrutura_decisao;
 
 import java.util.Scanner;
 
-public class exercicioIf_1 {
+public class ExercicioIf1 {
 
 	public static void main(String[] args) {
 		
