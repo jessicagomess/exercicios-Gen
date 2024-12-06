@@ -25,8 +25,8 @@ public class ExercicioSwitchCase2 {
 		
 		switch(codigo) {
 		case 1: { cargo = "Gerente";
-				percentualR = 0.10f;
-				break;
+				  percentualR = 0.10f;
+				  break;
 		}
 		case 2: { cargo = "Vendedor";
 				  percentualR = 0.07f;

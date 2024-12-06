@@ -22,7 +22,7 @@ public class ExercicioSwitchCase1 {
 		quantidade = leia.nextInt();
 		
 		switch(codigo) {
-		case 1:  produto = "Cachorro Quente";
+		case 1: produto = "Cachorro Quente";
 				 precoU = 10;
 				 break;
 		case 2: produto = "X-Salada";
