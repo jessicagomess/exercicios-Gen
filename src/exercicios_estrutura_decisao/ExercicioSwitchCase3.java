@@ -7,32 +7,49 @@ public class ExercicioSwitchCase3 {
 	public static void main(String[] args) {
 		float n1, n2, operacao = 0;
 		int codigo;
-		
+
 		Scanner leia = new Scanner(System.in);
-		
+
 		System.out.println("Digite o primeiro número: ");
 		n1 = leia.nextFloat();
-		
+
 		System.out.println("Digite o segundo número: ");
 		n2 = leia.nextFloat();
 
 		System.out.println("Digite o código da operação matemática: ");
 		codigo = leia.nextInt();
-		
-		switch(codigo) {
-		case 1: operacao = (n1 + n2);
-			
-		case 2: operacao = (n1 - n2);
-			
-		case 3: operacao = (n1 * n2);
-			
-		case 4: operacao = (n1 / n2);
-			
-		
-			
+
+		switch (codigo) {
+		case 1:
+			operacao = (n1 + n2); {
+			System.out.println(n1 + " + " + n2 + " = " + operacao);
+			break;
 		}
-		System.out.println(operacao);
-		
+
+		case 2:
+			operacao = (n1 - n2); {
+			System.out.println(n1 + " - " + n2 + " = " + operacao);
+			break;
+		}
+
+		case 3:
+			operacao = (n1 * n2); {
+			System.out.println(n1 + " * " + n2 + " = " + operacao);
+			break;
+		}
+
+		case 4:
+			operacao = (n1 / n2); {
+			System.out.println(n1 + " / " + n2 + " = " + operacao);
+			break;
+		}
+
+		}
+
+		if (codigo > 4 || codigo < 1) {
+			System.out.println("Operação Inválida !");
+		}
+
 	}
 
 }

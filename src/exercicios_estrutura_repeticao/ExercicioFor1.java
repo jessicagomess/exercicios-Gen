@@ -20,7 +20,7 @@ public class ExercicioFor1 {
 
 			for (contador = n1; contador <= n2; contador = contador + 1) {
 				if (contador % 3 == 0 && contador % 5 == 0)
-				System.out.println(contador + " É multiplo de 3 e 5");
+					System.out.println(contador + " É multiplo de 3 e 5");
 			}
 
 		} else {

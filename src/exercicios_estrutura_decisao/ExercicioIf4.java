@@ -19,46 +19,45 @@ public class ExercicioIf4 {
 		palavra3 = leia.next();
 
 		if (palavra1.equals("vertebrado")) {
-			if(palavra2.equals("ave")) {
-				if(palavra3.equals("carnivoro")) 
-				{
+			if (palavra2.equals("ave")) {
+				if (palavra3.equals("carnivoro")) {
+
 					System.out.print("aguia");
-					
-				}else if(palavra3.equals("onivoro"))
-				{
+
+				} else if (palavra3.equals("onivoro")) {
+
 					System.out.print("pomba");
 				}
-			}else if(palavra2.equals("mamifero")) {
-				if(palavra3.equals("onivoro")) 
-				{
+			} else if (palavra2.equals("mamifero")) {
+				if (palavra3.equals("onivoro")) {
+
 					System.out.print("homem");
-					
-				}else if(palavra3.equals("herbivoro")) {
+
+				} else if (palavra3.equals("herbivoro")) {
 					System.out.print("vaca");
 				}
 			}
-			
-		}else if(palavra1.equals("invertebrado")) {
-			if(palavra2.equals("inseto")) {
-				if(palavra3.equals("hematofago")) 
-				{
+
+		} else if (palavra1.equals("invertebrado")) {
+			if (palavra2.equals("inseto")) {
+				if (palavra3.equals("hematofago")) {
+
 					System.out.print("pulga");
-					
-				}else if(palavra3.equals("herbivoro"))
-				{
+
+				} else if (palavra3.equals("herbivoro")) {
+
 					System.out.print("lagarta");
 				}
-			}else if(palavra2.equals("anelideo")) {
-				if(palavra3.equals("hematofago")) 
-				{
+			} else if (palavra2.equals("anelideo")) {
+				if (palavra3.equals("hematofago")) {
+
 					System.out.print("sanguessuga");
-					
-				}else if(palavra3.equals("onivoro")) {
+
+				} else if (palavra3.equals("onivoro")) {
 					System.out.print("minhoca");
 				}
 			}
-			
+
 		}
-		}
-		}
-		
+	}
+}

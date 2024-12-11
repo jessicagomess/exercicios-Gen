@@ -20,16 +20,13 @@ public class ExercicioIf3 {
 		System.out.print("Primeira doação: ");
 		primeiraDoacao = leia.nextBoolean();
 
-		if (idade >= 18 && idade <= 59)
-		{
+		if (idade >= 18 && idade <= 59) {
 			System.out.print(nome + " está apto/a para doar sangue!");
-		}else if (idade >= 60 && idade <= 69 && primeiraDoacao == false )
-		{
+		} else if (idade >= 60 && idade <= 69 && !primeiraDoacao) {
 			System.out.print(nome + " está apto/a para doar sangue!");
-		}else{
+		} else {
 			System.out.print(nome + " não está apto/a para doar sangue!");
 		}
-		
+
 	}
 }
-

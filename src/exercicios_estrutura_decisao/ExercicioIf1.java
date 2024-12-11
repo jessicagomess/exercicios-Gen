@@ -12,7 +12,7 @@ public class ExercicioIf1 {
 		int B;
 		int C;
 		
-		// Construindo o lei
+		// Construindo o leia
 		
 		Scanner leia = new Scanner(System.in);
 		
@@ -29,12 +29,15 @@ public class ExercicioIf1 {
 		 
 		 //Processamento 
 		 if(A + B > C) {
+			 System.out.println(A + " + " + B + " = " + (A + B) + " > " + C);
 			 System.out.println("A soma de A + B é Maior do que C");
 		 }
 		if(A + B < C) {
+			 System.out.println(A + " + " + B + " = " + (A + B) + " < " + C);
 			 System.out.println("A soma de A + B é Menor do que C");
 		 }
 		if(A + B == C)
+			 System.out.println(A + " + " + B + " = " + (A + B) + " = " + C);
 			 System.out.println("A soma de A + B é igual a C");
 		 }
 

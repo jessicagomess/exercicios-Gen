@@ -2,7 +2,7 @@ package exercicios_estrutura_repeticao;
 
 import java.util.Scanner;
 
-public class exercicioDoWhile {
+public class exercicioDoWhile1 {
 
 	public static void main(String[] args) {
 		int numero;
